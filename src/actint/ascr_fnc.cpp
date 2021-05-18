@@ -4094,6 +4094,8 @@ void aciAddTeleportMenuItem(int id,int fnc_id)
 			if (strcmp(aci_curLocationName, (char*)eCmpPodish) == 0) ptr = rCmpPodish;
 			else if (strcmp(aci_curLocationName, (char*)eCmpVigBoo) == 0) ptr = rCmpVigBoo;
 			else if (strcmp(aci_curLocationName, (char*)eCmpZeePa) == 0) ptr = rCmpZeePa;
+			else if (strcmp(aci_curLocationName, (char*)eCmpRostrum) == 0) ptr = rCmpRostrum;
+			else ptr = aci_curLocationName;
 		}
 		else ptr = aci_curLocationName;
 	}
